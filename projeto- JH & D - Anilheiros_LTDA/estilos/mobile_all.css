@@ -24,15 +24,14 @@ header, main, footer {
 }
 
 header {
+    padding-top: 20px;
     align-items: center;
-    height: 270px;
     display: flex;
     flex-flow: column wrap;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.21);
     font-size: medium;
-    background-image: linear-gradient(to right, var(--azul-claro), var(--amarelo));
-    padding: 15px;
     margin-bottom: 20px;
+    background-image: linear-gradient(to right, var(--azul-claro), var(--amarelo));
     text-align: center;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
     color: rgba(0, 0, 0, 0.817);
@@ -91,6 +90,7 @@ div#tel {
     border-radius: 5px;
     display: flex;
     align-items: center;
+    margin-bottom: 7px;
 }
 
 div#tel p {
@@ -108,21 +108,11 @@ div#tel i {
     margin-right: 5px;
 }
 
-footer:hover {
-    transform: scale(1.05);
-    transition: .3s;
-}
-
-header:hover {
-    transform: scale(1.05);
-    transition: .3s;
-}
-
 header > div#logo {
     order: 0;
     height: 100px;
     width: 100px;
-    background-image: url('../assets/logo.jpeg');
+    background-image: url('../assets/Untitled.png');
     border-radius: 50%;
     background-position: center center;
     background-attachment: contain;
@@ -130,4 +120,40 @@ header > div#logo {
 
 header p {
     order: 3;
+}
+
+div#logo:hover {
+    transform: scale(1.05);
+    transition: .3s;
+}
+
+nav {
+    order: 4;
+    margin-top: 10px;
+    align-self: flex-start;
+    padding: 15px 0px 10px 10px;
+}
+
+nav a {
+    padding: 7px;
+    margin-right: 3px;
+    background-color: rgba(0, 233, 202, 0.665);
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: rgba(0, 207, 179, 0.758);
+    transform: scale(1.03);
+    transition: .15s;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.26);
+}
+
+a {
+    width: calc(100vw - 70px);
+    padding: 1px;
+    background-color: white;
+    border-radius: 4px;
+    text-decoration: none;
 }
