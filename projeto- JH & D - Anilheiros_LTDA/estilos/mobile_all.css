@@ -112,7 +112,7 @@ header > div#logo {
     order: 0;
     height: 100px;
     width: 100px;
-    background-image: url('../assets/Untitled.png');
+    background-image: url('../assets/logo.png');
     border-radius: 50%;
     background-position: center center;
     background-attachment: contain;
