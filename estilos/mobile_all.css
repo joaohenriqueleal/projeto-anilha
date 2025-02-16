@@ -247,3 +247,9 @@ section a {
 section a:hover {
     text-decoration: underline;
 }
+
+#alerta {
+    background-color: rgba(255, 191, 0, 0.938);
+    border-radius: 10px;
+    
+}
