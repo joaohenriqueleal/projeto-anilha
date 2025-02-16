@@ -18,8 +18,8 @@ header, main, footer {
 }
 
 :root {
-    --azul-claro: rgba(0, 255, 221, 0.78);
-    --amarelo: rgba(255, 242, 0, 0.68);
+    --azul-claro: rgba(0, 242, 210, 0.78);
+    --amarelo: rgba(251, 238, 0, 0.561);
     --azul: rgba(70, 92, 140, 0.941) ;
 }
 
@@ -92,7 +92,7 @@ div#tel p {
     background-color: white;
     border-radius: 4px;
     padding: 4px;
-    width: calc(100vw - 70px);
+    width: calc(100vw - 62px);
 }
     
 h3 {
@@ -132,31 +132,35 @@ nav {
 nav a {
     padding: 7px;
     margin-right: 3px;
-    background-color: rgba(0, 233, 202, 0.665);
+    background-color: rgba(0, 166, 144, 0.665);
     border-radius: 10px;
     color: white;
     text-decoration: none;
 }
 
-a:hover {
+nav a:hover {
     background-color: rgba(0, 207, 179, 0.758);
     transform: scale(1.02);
-    transition: .15s;
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.26);
 }
 
-a {
-    width: calc(100vw - 70px);
+footer a {
+    width: calc(100vw - 62px);
     padding: 1px;
     background-color: white;
     border-radius: 4px;
     text-decoration: none;
 }
 
+footer a:hover {
+    transform: scale(1.02);
+    text-decoration: underline;
+}
+
 main {
     padding: 10px;
     padding-top: 30px;
-    margin-bottom: 30px;
+    padding-bottom: 30px;
     background-color: #eee;
 }
 
@@ -220,4 +224,24 @@ div#bar6 {
     background-repeat: no-repeat;
     background-attachment: contain;
     background-position: center center;
+}
+
+p.local {
+    text-align: center;
+    background-color: rgba(60, 79, 120, 0.941);
+    border-radius: 10px;
+    padding: 4px;
+}
+
+p.local:hover  {
+    background-color: rgba(87, 116, 177, 0.941);
+}
+
+section a {
+    color: white;
+    text-decoration: none;
+}
+
+section a:hover {
+    text-decoration: underline;
 }
