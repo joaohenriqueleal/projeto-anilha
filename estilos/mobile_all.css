@@ -24,17 +24,16 @@ header, main, footer {
 }
 
 header {
-    padding-top: 20px;
-    padding-bottom: 5px;
-    align-items: center;
+    padding: 20px 0px 5px 0px;
     display: flex;
+    align-items: center;
     flex-flow: column wrap;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.21);
     font-size: medium;
     background-image: linear-gradient(to right, var(--azul-claro), rgb(1, 112, 149));
     text-align: center;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
-    color: rgba(0, 0, 0, 0.817);
+    color: rgba(0, 0, 0, 0.818);
 }
 
 main p {
@@ -60,8 +59,7 @@ h2 {
 }
 
 h1 {
-    margin-bottom: 10px;
-    margin-top: 20px;
+    margin: 20px 0px 10px 0px;
     order: 1;
 }
 
@@ -72,10 +70,8 @@ section:hover {
 
 footer {
     background-color:var(--amarelo);
-    padding: 10px;
+    padding: 20px 0px 30px 0px;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.22);
-    padding-bottom: 50px;
-    padding-top: 20px;
     font-size: 20px;
 }
 
@@ -160,9 +156,7 @@ footer a:hover {
 }
 
 main {
-    padding: 10px;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding: 30px 10px 30px 10px;
     background-color: #eee;
 }
 
