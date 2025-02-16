@@ -32,7 +32,7 @@ header {
     font-size: medium;
     background-image: linear-gradient(to right, var(--azul-claro), rgb(1, 112, 149));
     text-align: center;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    font-family:'Lucida Sans', Geneva, sans-serif ;
     color: rgba(0, 0, 0, 0.818);
 }
 
