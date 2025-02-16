@@ -159,3 +159,64 @@ main {
     background-color: #eee;
 }
 
+/* Configurando as imagens*/
+
+div.foto {
+    margin: auto;
+    border: 1px solid black;
+    height: 35vh;
+    width: 70vw;
+    border-radius: 5px;
+    max-width: 750px;
+    background-color: whitesmoke;
+}
+
+div#bar3 {
+    background-image: url('../assets/bar3.jpg');
+    background-repeat: no-repeat;
+    background-attachment: contain;
+    background-position: center center;
+}
+
+div#agua1 {
+    width: 75vw;
+    background-image: url('../assets/agua1.jpg');
+    background-repeat: no-repeat;
+    background-attachment: contain;
+    background-position: center center;
+}
+
+div#bar1 {
+    background-image: url('../assets/bar1.jpg');
+    background-repeat: no-repeat;
+    background-attachment: contain;
+    background-position: center center;
+}
+
+div#bar2 {
+    background-image: url('../assets/bar2.jpg');
+    background-repeat: no-repeat;
+    background-attachment: contain;
+    background-position: center center;
+}
+
+div#bar4 {
+    background-image: url('../assets/bar4.jpg');
+    background-repeat: no-repeat;
+    background-attachment: contain;
+    background-position: center center;
+}
+
+div#bar5 {
+    background-image: url('../assets/bar5.jpg');
+    background-repeat: no-repeat;
+    background-attachment: contain;
+    background-position: center center;
+}
+
+div#bar6 {
+    background-image: url('../assets/bar6.jpg');
+    background-repeat: no-repeat;
+    background-attachment: contain;
+    background-position: center center;
+}
