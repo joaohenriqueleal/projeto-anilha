@@ -121,6 +121,7 @@ div#logo:hover {
 }
 
 nav {
+    display: flex;
     order: 4;
     margin-top: 30px;
     align-self: flex-start;
@@ -128,7 +129,10 @@ nav {
 }
 
 nav a {
+    width: 200px;
     padding: 7px;
+    height: 40px;
+    font-size: 20px;
     margin-right: 3px;
     background-color: rgba(0, 166, 144, 0.665);
     border-radius: 10px;
