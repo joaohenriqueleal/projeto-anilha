@@ -25,6 +25,7 @@ header, main, footer {
 
 header {
     padding-top: 20px;
+    padding-bottom: 5px;
     align-items: center;
     display: flex;
     flex-flow: column wrap;
@@ -65,7 +66,7 @@ h1 {
 }
 
 section:hover {
-    transform: scale(1.05);
+    transform: scale(1.04);
     transition: .3s;
 }
 
@@ -73,7 +74,7 @@ footer {
     background-color:var(--amarelo);
     padding: 10px;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.22);
-    padding-bottom: 20px;
+    padding-bottom: 50px;
     padding-top: 20px;
     font-size: 20px;
 }
@@ -123,7 +124,7 @@ div#logo:hover {
 
 nav {
     order: 4;
-    margin-top: 10px;
+    margin-top: 30px;
     align-self: flex-start;
     padding: 15px 0px 10px 10px;
 }
@@ -139,7 +140,7 @@ nav a {
 
 a:hover {
     background-color: rgba(0, 207, 179, 0.758);
-    transform: scale(1.03);
+    transform: scale(1.02);
     transition: .15s;
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.26);
 }
