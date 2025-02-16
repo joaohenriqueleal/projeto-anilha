@@ -253,3 +253,13 @@ section a:hover {
     
 }
 
+p#creditos {
+    margin-top: 10px;
+}
+
+footer > p {
+    background-color: white;
+    padding: 5px;
+    border-radius: 8px;
+    border: 1px solid black;
+}
